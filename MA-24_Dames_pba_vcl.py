@@ -111,7 +111,7 @@ pion = pygame.transform.scale(pion, (case_size, case_size))
 screen.blit(pion, (marge_gauche, marge_haut))
 pygame.display.flip()
 
-
+# Gestion des événements
 running = True
 while running:
     for event in pygame.event.get():
